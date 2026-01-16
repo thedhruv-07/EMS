@@ -3,8 +3,16 @@ const employees = [
     employees: [
       {
         id: 1,
-        email: "employee1@example.com",
+        firstname: "Rahul",
+        email: "e@e.com",
         password: "123",
+        taskNumbers: {
+          total: 3,
+          active: 1,
+          newTask: 1,
+          completed: 1,
+          failed: 1
+        },
         tasks: [
           {
             title: "Prepare Report",
@@ -38,10 +46,19 @@ const employees = [
           }
         ]
       },
+
       {
         id: 2,
+        firstname: "Amit",
         email: "employee2@example.com",
         password: "123",
+        taskNumbers: {
+          total: 4,
+          active: 2,
+          newTask: 1,
+          completed: 1,
+          failed: 1
+        },
         tasks: [
           {
             title: "Code Review",
@@ -85,10 +102,19 @@ const employees = [
           }
         ]
       },
+
       {
         id: 3,
+        firstname: "Suresh",
         email: "employee3@example.com",
         password: "123",
+        taskNumbers: {
+          total: 3,
+          active: 2,
+          newTask: 1,
+          completed: 1,
+          failed: 0
+        },
         tasks: [
           {
             title: "Design UI",
@@ -122,10 +148,19 @@ const employees = [
           }
         ]
       },
+
       {
         id: 4,
+        firstname: "Rohit",
         email: "employee4@example.com",
         password: "123",
+        taskNumbers: {
+          total: 3,
+          active: 1,
+          newTask: 1,
+          completed: 1,
+          failed: 1
+        },
         tasks: [
           {
             title: "Database Backup",
@@ -159,10 +194,19 @@ const employees = [
           }
         ]
       },
+
       {
         id: 5,
+        firstname: "Vikas",
         email: "employee5@example.com",
         password: "123",
+        taskNumbers: {
+          total: 3,
+          active: 2,
+          newTask: 1,
+          completed: 1,
+          failed: 0
+        },
         tasks: [
           {
             title: "Content Writing",
@@ -199,6 +243,7 @@ const employees = [
     ]
   }
 ];
+
 
 const admin = [
   {
